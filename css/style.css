@@ -118,6 +118,11 @@ p { margin: 0 0 16px; }
   border-color: var(--color-ink);
 }
 .btn-outline:hover { background: var(--color-ink); color: var(--color-white); }
+.hero .btn-outline {
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+.hero .btn-outline:hover { background: var(--color-white); color: var(--color-ink); }
 .section--dark .btn-outline { color: var(--color-white); border-color: var(--color-white); }
 .section--dark .btn-outline:hover { background: var(--color-white); color: var(--color-ink); }
 
