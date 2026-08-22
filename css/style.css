@@ -550,6 +550,23 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--c
 .mt-0 { margin-top: 0; }
 .mb-0 { margin-bottom: 0; }
 
+/* ---------- Catalog Download Cards ---------- */
+.catalog-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.catalog-card:hover { box-shadow: var(--shadow-hard); border-color: var(--color-red); }
+.catalog-card__icon { font-size: 44px; line-height: 1; flex-shrink: 0; }
+.catalog-card__body h3 { font-size: 20px; margin-bottom: 8px; }
+.catalog-card__body p { color: var(--color-steel); font-size: 14.5px; margin-bottom: 20px; }
+.catalog-card__actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
 /* ---------- Floating CTA Buttons ---------- */
 .float-btns {
   position: fixed;
